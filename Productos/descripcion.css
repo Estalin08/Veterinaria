@@ -1,0 +1,330 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+
+body{
+    background-color: #F5F6F6
+}
+.abeezee-regular {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  
+.cabecera {
+    position: relative;
+    width: 100%;
+    height: 8vw;
+    background-color: #0D478B;
+}
+
+.logotipo {
+    display: flex;
+    position: relative;
+    left: 2%;
+    width: 8%;
+    height: 8vw;  
+}
+
+.icono_inicio_sesion {
+    display: flex;
+    position:  relative; bottom: 85%; left: 94%;
+    width: 4%;
+    height: 3vw;
+}
+
+.redes_sociales{
+    display: flex;
+    position: relative; bottom: 106%; left: 26%;
+    width: 14%;
+    height: 3vw;
+}
+
+.linea_blanca {
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 1vw;
+}
+
+.fondo_menu{
+    font-family: 'ABeeZee';
+    position:relative;
+    background-color:#03989E ;
+    width: 100%;
+    height: 11vw;
+}
+.titulo{
+    font-family: "ABeeZee", sans-serif;
+    font-size:250%;
+    color: #FFFFFF;
+    position: relative; top: 14%;
+    text-align: center;
+    width: 100%;
+    height: 9vw;
+}
+
+.menu{
+    font-family: "ABeeZee", sans-serif;
+    display:inline-flex;
+    list-style-type: none;
+    font-size: 1vw;
+    gap: 6%;
+    position:relative;
+    color: #FFFFFF;
+    width: 58%; 
+    height: 2vw;
+    float: right;
+    bottom: 20%;
+    padding-left: 13vw;
+}
+.logo_inicio{
+    display: flex;
+    position: relative; width: 2%; height: 2vw;
+    bottom: 6%;
+    left: 2%;
+}
+
+.carrito_compra{
+    padding-left: 85%;
+}
+
+article{
+    font-family: "ABeeZee", sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom:6%;
+}
+
+.produc{
+    
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+.produc h2{
+    font-size: 2vw;
+
+}
+
+.produc img{
+    width: 50%;
+    height: 50vh;
+}
+
+.botones_1{
+    gap: 4%;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 32%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+.botones_2{
+    gap: 4%;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 32%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+button{
+    font-weight: bold;
+    text-align: center;
+    width: 24%;
+    height: 3vh;
+    background-color: #10B3C9;
+    border-radius: 27px;
+}
+
+
+#comprar{
+    font-weight: bold;
+    background-color: #DCE756;
+}
+
+
+.parrafo{
+   
+    width: 50%;
+    height: auto;
+}
+.parrafo h4{
+    padding-left: 22%;
+    font-size: 2vw;
+    padding-bottom: 2%;
+
+}
+
+.parrafo p{
+    font-size: 150%;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 29%;
+}
+
+.linea_blanca{
+    height: 6px;
+    background-color: #FFFFFF;
+}
+h3{
+    font-size: 1.5vw;
+    font-family: "ABeeZee", sans-serif;
+    padding-left: 1%;
+
+}
+.linea_negra{
+    height: 1px;
+    background-color: #000000;
+}
+
+.calif{
+    padding-left: 2.2%;
+    
+}
+.promedio_estrellas{
+    padding-left: 2.8%;
+    font-size: 1vw;
+    font-family: "ABeeZee", sans-serif;
+}
+
+.clasificacion_estrellas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: "ABeeZee", sans-serif;
+   
+
+}
+
+.estrellas{ 
+    text-align: center;
+    width: 10%;
+    height: auto;
+    line-height: 3;
+    font-size: 1vw;
+}
+
+.porcentajes{
+    text-align: center;
+    width: 10%;
+    height: auto;
+    line-height: 3;
+    font-size: 1vw;
+    margin-left: 80%;
+
+}
+
+.comentario{
+    width: 90%;
+    height: 6vh;
+    background-color: #56C3C3;
+    border-radius: 17px;
+    margin-left: 5%;
+    font-size: 100%
+
+}
+
+.aviso{
+    font-size: 150%;
+    font-family: "ABeeZee", sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+
+
+.pie_de_pagina{ 
+    background-color: #0D478B;
+    position: relative;
+    width: 100%;
+    height: 23vw;
+    
+}
+.menu_pie{ position: relative; left: 1%;
+        width: 17%;
+        height: 23vw;
+        text-align: center;
+        line-height: 2.0;
+
+}
+.inicio_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+}
+
+.servicios_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+}
+
+.productos_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+    
+}
+
+.promocion_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+    
+}
+
+.informacion_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF; 
+}
+
+.redes_pie{ 
+    display: flex;
+    text-align: center;
+    position: relative; bottom: 81%; left: 25%;
+    width: 24%;
+    height: 5vw;
+        
+}
+
+.politicas{
+    position: relative; bottom: 70%; left: 27%;
+    width: 21%;
+    height: 3vw;
+    font-size: 2vw;
+    color: #FFFFFF;
+
+}
+
+
+.datos{
+    
+    display: flex;
+    font-size: 2vw;
+    position: relative; bottom: 30vw; left: 52vw;
+    width: 44%;
+    height: 86%;
+    text-align: justify;
+    line-height: 1.8;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+

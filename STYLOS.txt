@@ -1,0 +1,56 @@
+.logotipo {
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    position: relative;
+    width: 13vw;
+    height: 12vw;
+    
+}
+
+.icono_inicio_sesion {
+    position:  relative; bottom: 7vw; left: 81vw;
+    width: 4vw;
+    height: 3vw;
+}
+
+.icono_facebook {
+    position:  relative; bottom: 4vw; left: 6vw;
+    width: 4vw;
+    height: 3vw;
+    
+}
+
+.icono_x {
+    position: relative; bottom: 4vw; left: 6vw;
+    width: 4vw;
+    height: 3vw;
+
+}
+
+.icono_whatsapp {
+    position: relative; bottom: 4vw; left:6vw;
+    width: 4vw;
+    height: 3vw;
+    
+}
+
+.icono_instagram {
+    position: relative; bottom: 4vw; left: 6vw;
+    width: 4vw;
+    height: 3vw;
+}
+
+.linea_blanca {
+   position: relative; bottom: 1vw; right: 1vw;
+    background-color: #FFFFFF;
+    border: 0.5vw  solid #FFFFFF;
+    width: 99vw;
+}
+
+.fondo_menu{
+    background-color:#03989E ;
+    width: 100%;
+    height: 27vh;
+
+}

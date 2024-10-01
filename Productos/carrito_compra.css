@@ -1,0 +1,350 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+
+body{
+    background-color: #F5F6F6
+}
+.abeezee-regular {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  
+.cabecera {
+    position: relative;
+    width: 100%;
+    height: 8vw;
+    background-color: #0D478B;
+}
+
+.logotipo {
+    display: flex;
+    position: relative;
+    left: 2%;
+    width: 8%;
+    height: 8vw;  
+}
+
+.icono_inicio_sesion {
+    display: flex;
+    position:  relative; bottom: 85%; left: 94%;
+    width: 4%;
+    height: 3vw;
+}
+
+.redes_sociales{
+    display: flex;
+    position: relative; bottom: 106%; left: 26%;
+    width: 14%;
+    height: 3vw;
+}
+
+.linea_blanca {
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 1vw;
+}
+
+.fondo_menu{
+    font-family: 'ABeeZee';
+    position:relative;
+    background-color:#03989E ;
+    width: 100%;
+    height: 11vw;
+}
+.titulo{
+    font-family: "ABeeZee", sans-serif;
+    font-size:250%;
+    color: #FFFFFF;
+    position: relative; top: 14%;
+    text-align: center;
+    width: 100%;
+    height: 9vw;
+}
+
+.menu{
+    font-family: "ABeeZee", sans-serif;
+    display:inline-flex;
+    list-style-type: none;
+    font-size: 1vw;
+    gap: 6%;
+    position:relative;
+    color: #FFFFFF;
+    width: 58%; 
+    height: 2vw;
+    float: right;
+    bottom: 20%;
+    padding-left: 13vw;
+}
+.logo_inicio{
+    display: flex;
+    position: relative; width: 2%; height: 2vw;
+    bottom: 6%;
+    left: 2%;
+}
+
+.subtitulo{
+    font-size: 190%;
+    font-family: "ABeeZee", sans-serif;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.asignacion_producto{
+    width: 80%;
+    height: auto;
+}
+
+
+.produc_1{
+    width: 70%;
+    height: 30vh;
+    background-color:#D9D9D9;
+    margin-left: 7%;
+      
+    
+}
+.sub_contenedor_1{
+    width: 100%;
+    height: auto;
+    
+
+}
+.sub_contenedor_2{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    margin-left: 2%;
+    
+    
+
+}
+
+
+.sub_precio{
+    font-family: "ABeeZee", sans-serif;
+    font-size: 140%;
+    width: 26%;
+    padding-top: 9%;
+    margin-left: 4%;
+    line-height: 2.5;
+    margin-right: 5%;
+}
+
+.produc_1 img{
+    width: 18%;
+
+}
+
+.cantidad input{
+    width: 20%;
+    text-align: center;
+}
+.cantidad{
+    
+    margin-top: 11%;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 140%;
+    display: flex;
+    width: 20%;
+    height: 2vh;   
+}
+
+.subtotal{
+    margin-top: 9%;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 130%;
+    width: 15%;
+    height: 2vh;
+}
+
+.linea_negra{
+    color: #0000;
+    background-color: #000;
+    height: 1px;
+    
+}
+
+.chulo{
+    margin-top:8% ;
+    width: 10%;
+    height: 8vh;
+}
+
+.chulo img{
+    
+    width: 30%;
+    height: 3vh;
+    
+}
+
+.eliminar{
+    width: 10%;
+    height: 8vh;
+}
+
+.eliminar img{
+    margin-left: 45%;
+    
+    width: 33%;
+    height: 3vh;
+    
+}
+
+.entrega{
+    font-family: "ABeeZee", sans-serif;
+    display: flex;
+    margin-left: 13%;
+    padding-top: 1.4%;
+    font-size: 100%;
+    color: #000000; opacity: 45%;
+    gap:54%;
+}
+
+
+.realizacion_de_pedidos{
+    width: 20%;
+    height: 60vh;
+    font-family: "ABeeZee", sans-serif;
+    background-color: #D9D9D9;
+    margin-right: 6%;
+
+}
+
+.realizacion_de_pedidos h5{
+    text-align: center;
+    font-size: 170%;
+    padding-top: 6%;
+    margin-bottom: 5%;
+}
+
+.realizacion_de_pedidos p{
+   font-size: 110%;
+   line-height: 2.0;
+   margin-left: 10%;
+}
+
+.linea_negra_pedido{
+    background-color: #000;
+    width: 100%;
+    height: 1px;
+}
+
+.precio{
+    display: flex;
+    gap: 30%;
+}
+
+.pedidos_foto{
+    padding-top: 6%;
+    margin-left: 14%;
+}
+.realizacion_de_pedidos h6{
+    padding-top: 7%;
+    font-size: 80%;
+    margin-left: 24%;
+}
+
+.pse_foto{
+    width: 60%;
+    height: 20vh;
+    margin-left: 14%;
+}
+
+
+.pie_de_pagina{ 
+    background-color: #0D478B;
+    position: relative;
+    width: 100%;
+    height: 23vw;
+    
+}
+.menu_pie{ position: relative; left: 1%;
+        width: 17%;
+        height: 23vw;
+        text-align: center;
+        line-height: 2.0;
+
+}
+.inicio_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+}
+
+.servicios_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+}
+
+.productos_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+    
+}
+
+.promocion_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF;
+    
+}
+
+.informacion_pie{
+    position: relative; top: 6%; left: 5%;
+    font-size: 2VW;
+    color: #FFFFFF; 
+}
+
+.redes_pie{ 
+    display: flex;
+    text-align: center;
+    position: relative; bottom: 81%; left: 25%;
+    width: 24%;
+    height: 5vw;
+        
+}
+
+.politicas{
+    position: relative; bottom: 70%; left: 27%;
+    width: 21%;
+    height: 3vw;
+    font-size: 2vw;
+    color: #FFFFFF;
+
+}
+
+
+.datos{
+    
+    display: flex;
+    font-size: 2vw;
+    position: relative; bottom: 30vw; left: 52vw;
+    width: 44%;
+    height: 86%;
+    text-align: justify;
+    line-height: 1.8;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+

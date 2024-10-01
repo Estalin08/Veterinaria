@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ABeeZee", sans-serif;
+}
+/*@media  (max-width:14444px ) and  (min-width:200px ) {*/
+    
+
+    header{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    background-color: #0D478B;
+    width: 100%;
+    height: 15vh;
+    }
+
+   .logo{
+    display: flex;
+    width: 8em;
+    height:auto;
+   }
+
+   .redes_sociales{
+    display: flex;
+    width: 50%;
+    height: auto;
+    align-items:center ;
+        
+    }
+
+    .redes_sociales img{
+    width: auto;
+    height: 3rem;
+    }
+
+    .Iniciar_sesion{
+        display: flex;
+        display: inline-block;
+        flex-direction: column;
+        padding-top: 0.5vw;
+        padding-right: 3%;
+        align-items: center;
+        width: auto;
+        height: auto;
+        
+    }
+
+    .Iniciar_sesion img{
+        width: auto;
+        height: auto;
+        margin-bottom: 6px;
+        cursor: pointer;
+        padding-left: 13%;
+          
+    }
+
+    .inicio_registrate{
+        display: none;
+        background-color: #ffffff;
+        width: 7em;
+        height: 5vh;
+        font-size: 14px;
+        border: 1px solid #000000;
+    }
+
+    .inicio_registrate a{
+        font-size: 100%;
+        text-decoration: none;
+        text-align: center;
+        color: #000000;
+    }
+
+    .inicio_registrate hr{
+        width: auto;
+        height: 1px;
+        background-color: #000000;
+    }
+
+    .Iniciar_sesion:hover .inicio_registrate{
+        display: block;
+    }
+    
+    
+    iframe{
+        z-index: 999999;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        display: none;
+    }
+
+   
+    .linea_blanca {
+        display: flex;
+        position: relative;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 1vw;
+    }
+
+    .fondo_menu{
+        font-family: 'ABeeZee';
+        position:relative;
+        background-color:#03989E ;
+        width: 100%;
+        height: 11vw;
+    }
+    .titulo{
+        font-family: "ABeeZee", sans-serif;
+        font-size:250%;
+        color: #FFFFFF;
+        position: relative; top: 14%;
+        text-align: center;
+        width: 100%;
+        height: 9vw;
+    }
+    
+    .menu{
+        font-family: "ABeeZee", sans-serif;
+        display:inline-flex;
+        font-size: 1vw;
+        gap: 5%;
+        position:relative;
+        color: #FFFFFF;
+        width: 58%; 
+        height: auto;
+        float: right;
+        bottom: 20%;
+        padding-left: 13vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    li{
+        list-style-type: none;
+        
+       
+    }
+
+
+
+    .logo_inicio{
+        display: flex;
+        position: relative; width: 2%; height: 2vw;
+        bottom: 6%;
+        left: 2%;
+    }
+@media  (max-width:820px )  {
+
+    .fondo_menu{
+        font-family: 'ABeeZee';
+        position:relative;
+        background-color:#03989E ;
+        width: 100%;
+        height: 16vh;
+    }
+
+    .titulo{
+        font-family: "ABeeZee", sans-serif;
+        font-size:200%;
+        color: #FFFFFF;
+        position: relative; top: 5%;
+        text-align: center;
+        width: 100%;
+        height: 9vw;
+    }
+    
+    .menu{
+        font-family: "ABeeZee", sans-serif;
+        display:inline-flex;
+        font-size: 15px;
+        gap: 5%;
+        position:relative;
+        color: #FFFFFF;
+        width: 58%; 
+        height: auto;
+        float: right;
+        top: 20%;
+        padding-left: 2vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    li{
+        list-style-type: none;
+        
+       
+    }
+
+
+
+    .logo_inicio{
+        display: flex;
+        position: relative; width: 2%; height: 2vw;
+        top: 20%;
+        left: 2%;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    .banner_contenido{
+        height: 56vw;
+    }
+    .banner{
+        position: relative;
+            width: 100%;
+            height: 50vw;
+    }
+
+    .agenda_cita_banner{
+        position: relative; bottom: 9vw; left: 47vw;
+            width: 20%;
+            height: 5vw;
+        }
+
+    .comprar_banner{
+        position: relative; bottom: 9vw; left: 56vw;
+            width: 20%;
+            height: 5vw;
+            }
+
+    
+    .linea_cyan {
+        position: relative; bottom: 6vw;
+        background-color: #03989E;
+        width: 100%;
+        height: 2vw;
+    }
+
+    .recomendaciones{ position:  relative; bottom: 6vw;
+        width: 100%;
+        height: 51vw;
+    }
+
+    .video_recomendaciones{
+        position: relative; top: 1%; left: 3vw;
+            width: 44%;
+            height: 35vw;
+
+    }
+
+    .titulo_recomendaciones{
+        font-size: 4vw;
+        color: #0057D9;
+        position: relative; top: 5%; left: 6%;
+        width: 37%;
+        height: 12vw;
+            
+    }
+
+    .poss_veterinaria{
+        position: absolute; top:6%; left: 50%;
+        width: 50%;
+        height: 48vw;         
+        
+    }
+
+    .linea_cyan2 {
+        position: relative; bottom: 6vw;
+        background-color: #03989E;
+        width: 100%;
+        height: 2vw;
+    }
+
+    .guarderia{
+        position: relative;
+        bottom: 4vw;
+    }
+    
+
+    .titulo_guarderia{
+        position: relative; bottom: 5%;
+        text-transform: uppercase;
+        font-size: 3vw;
+        color: #000000;
+        text-align: center;   
+    }
+
+    .img_perro_gato{
+        position: relative; top: 6vw; left:65vw ;
+        border-radius: 7%;
+        width: 31%;
+        height: 20vw;
+    }
+
+    .parrafo{
+        position: relative; bottom: 21vw; right:1%; 
+        font-size:  2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        
+    }
+
+    .circulo_1{
+        position: relative; bottom: 20vw; left: 13vw;
+            width: 32%;
+            height: 31vw;
+    }
+
+    .circulo_2{
+        position: relative; bottom: 20vw; left: 20vw;
+            width: 32%;
+            height: 31vw;
+    }
+
+    .agenda_cita_guarderia{ position: relative; bottom: 10vw; right: 27vw;
+        width: 23%;
+        height: 6vw;
+
+    }
+    .circulo_3{
+        position: relative; bottom: 8vw; left: 13vw;
+            width: 32%;
+            height: 31vw;
+    }
+
+    .circulo_4{
+        position: relative; bottom: 9vw; left: 20vw;
+            width: 32%;
+            height: 31vw;
+    }
+
+    .pie_de_pagina{ 
+        background-color: #0D478B;
+        position: relative;
+        width: 100%;
+        height: 23vw;
+        
+    }
+    .menu_pie{ position: relative; left: 1%;
+            width: 17%;
+            height: 23vw;
+            text-align: center;
+            line-height: 2.0;
+    
+    }
+    .inicio_pie{
+        position: relative; top: 6%; left: 5%;
+        font-size: 2VW;
+        color: #FFFFFF;
+    }
+    
+    .servicios_pie{
+        position: relative; top: 6%; left: 5%;
+        font-size: 2VW;
+        color: #FFFFFF;
+    }
+    
+    .productos_pie{
+        position: relative; top: 6%; left: 5%;
+        font-size: 2VW;
+        color: #FFFFFF;
+        
+    }
+    
+    .promocion_pie{
+        position: relative; top: 6%; left: 5%;
+        font-size: 2VW;
+        color: #FFFFFF;
+        
+    }
+    
+    .informacion_pie{
+        position: relative; top: 6%; left: 5%;
+        font-size: 2VW;
+        color: #FFFFFF; 
+    }
+    
+    .redes_pie{ 
+        display: flex;
+        text-align: center;
+        position: relative; bottom: 81%; left: 25%;
+        width: 24%;
+        height: 5vw;
+            
+    }
+    
+    .politicas{
+        position: relative; bottom: 70%; left: 27%;
+        width: 22%;
+        height: 3vw;
+        font-size: 2vw;
+        color: #FFFFFF;
+    
+    }
+    
+    
+    .datos{
+        
+        display: flex;
+        font-size: 2vw;
+        position: relative; bottom: 30vw; left: 52vw;
+        width: 44%;
+        height: 86%;
+        text-align: justify;
+        line-height: 1.8;
+        text-align: left;
+        color: #FFFFFF;
+    
+    }
+    
+/*}
