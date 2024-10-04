@@ -3,45 +3,93 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"ABeeZee", sans-serif;
 
    
 }
 
-.abeezee-regular {
-    font-family: "ABeeZee", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-
-  
-.cabecera {
-    position: relative;
-    width: 100%;
-    height: 8vw;
-    background-color: #0D478B;
+header{
+display: flex;
+flex: auto;
+justify-content: space-between;
+background-color: #0D478B;
+width: 100%;
+height: 15vh;
 }
 
-.logotipo {
-    display: flex;
-    position: relative;
-    left: 2%;
-    width: 8%;
-    height: 8vw;  
-}
-
-.icono_inicio_sesion {
-    display: flex;
-    position:  relative; bottom: 85%; left: 94%;
-    width: 4%;
-    height: 3vw;
+.logo{
+display: flex;
+width: 8em;
+height:auto;
 }
 
 .redes_sociales{
+display: flex;
+width: 50%;
+height: auto;
+align-items:center ;
+    
+}
+
+.redes_sociales img{
+width: auto;
+height: 3rem;
+}
+
+.Iniciar_sesion{
     display: flex;
-    position: relative; bottom: 106%; left: 26%;
-    width: 14%;
-    height: 3vw;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 0.5vw;
+    padding-right: 3%;
+    align-items: center;
+    width: auto;
+    height: auto;
+    
+}
+
+.Iniciar_sesion img{
+    width: auto;
+    height: auto;
+    margin-bottom: 6px;
+    cursor: pointer;
+    padding-left: 13%;
+        
+}
+
+.inicio_registrate{
+    display: none;
+    background-color: #ffffff;
+    width: 15em;
+    height: 6vh;
+    font-size: 9px;
+    border: 1px solid #000000;
+}
+
+.inicio_registrate a{
+    font-size: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+.inicio_registrate hr{
+    width: auto;
+    height: 1px;
+    background-color: #000000;
+}
+
+.Iniciar_sesion:hover .inicio_registrate{
+    display: block;
+}
+
+
+iframe{
+    z-index: 999999;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: none;
 }
 
 .linea_blanca {
@@ -49,7 +97,7 @@
     position: relative;
     background-color: #FFFFFF;
     width: 100%;
-    height: 1vw;
+    height: 20px;
 }
 
 .fondo_menu{
@@ -57,13 +105,13 @@
     position:relative;
     background-color:#03989E ;
     width: 100%;
-    height: 11vw;
+    height: 25vh;
 }
 .titulo{
     font-family: "ABeeZee", sans-serif;
     font-size:250%;
     color: #FFFFFF;
-    position: relative; top: 14%;
+    position: absolute; top: 14%;
     text-align: center;
     width: 100%;
     height: 9vw;
@@ -72,16 +120,15 @@
 .menu{
     font-family: "ABeeZee", sans-serif;
     display:inline-flex;
-    list-style-type: none;
-    font-size: 1vw;
-    gap: 6%;
-    position:relative;
+    font-size: 1.5vw;
+    gap: 2vw;
+    position:absolute;
     color: #FFFFFF;
-    width: 58%; 
-    height: 2vw;
-    float: right;
-    bottom: 20%;
-    padding-left: 13vw;
+    width: 91%; 
+    height: 3vh;
+    bottom: 13%;
+    padding-left: 33em;
+    margin-right: 5vw;
 }
 
 a{
@@ -92,18 +139,18 @@ a{
 li{
     list-style-type: none;
     
-   
+    
 }
 
 
 
 .logo_inicio{
-    display: flex;
-    position: relative; width: 2%; height: 2vw;
-    bottom: 6%;
-    left: 2%;
+    position: absolute; 
+    width: 2%; 
+    height: 2vw; 
+    top: 18vh;
+    left: 2vw;
 }
-
 .slider{
     width: 100%;
     height: auto;
@@ -344,5 +391,198 @@ p{
     line-height: 1.8;
     text-align: left;
     color: #FFFFFF;
+
+}
+
+
+
+
+ /*ADAPTACION PARA TABLE*/
+ @media  (max-width:820px )  {
+
+    .fondo_menu{
+        font-family: 'ABeeZee';
+        position:relative;
+        background-color:#03989E ;
+        width: 100%;
+        height: 16vh;
+    }
+
+    .titulo{
+        font-family: "ABeeZee", sans-serif;
+        font-size:200%;
+        color: #FFFFFF;
+        position: relative; top: 2.5vh;
+        text-align: center;
+        width: 100%;
+        height: 9vh;
+    }
+    
+    .menu{
+        font-family: "ABeeZee", sans-serif;
+        display:inline-flex;
+        font-size: 2.8vw;
+        gap: 2.3vw;
+        position:absolute;
+        color: #FFFFFF;
+        width: 91%; 
+        height: 2vh;
+        bottom: 10%;
+        padding-left: 6em;
+        margin-right: 3vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    li{
+        list-style-type: none;
+        
+       
+    }
+
+    .logo_inicio{
+        position: absolute; 
+        width: auto; 
+        height: auto; 
+        top: 11vh;
+        left: 2vw;
+    }
+
+    /* SESION DE SERVISIOS*/
+    .servicios{
+        font-family: "ABeeZee", sans-serif;
+        display: flex;
+        background-color: #F5F6F6;
+        width: 100%;
+        height: auto;
+        padding-top: 2%;
+    }
+    .linea_negra{
+        background-color: black;
+        height: 2px;
+    }
+     /*veterinaria/*/
+    .veterinaria{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        text-align: justify;
+        margin: 2%;
+        width: 45%;
+        height: auto;
+        margin-left: 10%;
+    }
+    
+    .veterinaria h3{
+        color: #004AAD;
+        text-align: center;
+        margin-top: 2%; 
+        font-size: 200%;
+    }
+    
+    p{
+        margin: 5%;
+        font-size: 120%;
+        
+    }
+    
+    .veterinaria img{
+        display: flex;
+        flex-direction: column;
+        width: 17vw;
+        margin-left: 23%;
+        margin-bottom: 7%; 
+    }
+    
+     /*sesion guarderia/*/
+    .guarderia{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        text-align: justify;
+        margin: 2%;
+        width: 45%;
+        height: auto;
+        margin-left: 9%;
+        
+    }
+    
+    .guarderia img{
+        display: flex;
+        flex-direction: column;
+        width: 17vw;
+        margin-left: 25%;
+        margin-top: 14%;
+    }
+    .guarderia h3{
+        color: #004AAD;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 200%;  
+    }
+    
+     /*sesion peluqueria/*/
+    .peluqueria{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        text-align: justify;
+        margin: 2%;
+        width: 34%;
+        height: auto;
+        margin-left: 9%;
+        
+    }
+    
+    .peluqueria img{
+        display: flex;
+        flex-direction: column;
+        width: 17vw;
+        margin-left: 23%;
+        margin-bottom: 3%;
+    }
+    .peluqueria h3{
+        color: #004AAD;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 230%;  
+    }
+    
+     /*Sesion de spa/*/
+    .spa{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        text-align: justify;
+        margin: 2%;
+        width: 34%;
+        height: auto;
+        margin-left: 9%;
+        
+    }
+    
+    .spa img{
+        display: flex;
+        flex-direction: column;
+        width: 17vw;
+        margin-left: 23%;
+        margin-top: 4%;
+    }
+    
+    .spa h3{
+        color: #004AAD;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 230%;  
+    }
+
+
+    
+
+
+
 
 }
